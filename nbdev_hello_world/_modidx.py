@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://PauJoTi.github.io',
                 'git_url': 'https://github.com/PauJoTi/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('hardcore.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.hardcore': { 'nbdev_hello_world.hardcore.foo': ('hardcore.html#foo', 'nbdev_hello_world/hardcore.py'),
+                                            'nbdev_hello_world.hardcore.say_hello': ( 'hardcore.html#say_hello',
+                                                                                      'nbdev_hello_world/hardcore.py')}}}
